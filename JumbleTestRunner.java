@@ -13,12 +13,7 @@ public class JumbleTestRunner {
 	
 	private static Jumble j = new Jumble();
 	private static HashMap<String, Boolean> dict;
-	/**
-	 * Todo:
-	 * need to test empty string, full string,  1 duplicated letters in a row, 2, 3, 
-	 * 2 duplicates a space and another duplicate -- duplicate combos
-	 * word not in dictionary, large data sets
-	 */
+
 	@Test
 	public void testBasicJumbleFunction() {
 		ArrayList<String> result = j.jumble("dog", dict);
